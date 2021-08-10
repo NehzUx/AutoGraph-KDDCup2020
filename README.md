@@ -1,5 +1,5 @@
 # AutoGraph-Codabench
-This is the official repo for hosting AutoGraph benchmarks on Codabench platform.
+This is the official repo for hosting AutoGraph benchmarks on [Codabench platform](https://www.codabench.org/). This benchmark inherits from AutoGraph challenge at KDD Cup 2020.
 
 Update (2021/08/10):
 
