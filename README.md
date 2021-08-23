@@ -14,6 +14,28 @@ Update (2021/08/10):
 To be included:
 LINK to codabench site, etc.
 
+# Dataset License:
+
+We include 13 datasets in total here in this repository. 10 datasets come from public datasets and 3 come from 4paradigm. We conclude the licenses for each dataset below. If you find anything inappropriate and have any question regrading the license, please contact us by: xuzhen[AT]4paradigm[DOT]com
+
+
+| Dataset ID  | Origin Source | License |
+| ------------- | ------------- | ------------- |
+| a  | Cora  | MIT  |
+| b  | CiteSeer  | CC BY-NC-SA 3.0  |
+| c  | Reddit  | MIT  |
+| d  | 20 Newsgroups  | Credit to Ken Lang and Tom Mitchell  |
+| f  | Amazon Computer  | MIT  |
+| g  | Coauthor Physics  | MIT  |
+| h  | ohsumed  | CC BY-NC 4.0  |
+| j  | 4paradigm  | CC BY-NC 4.0  |
+| k  | Amazon Photo  | MIT  |
+| l  | Coauthor CS  | MIT  |
+| m  | R8  | Copyright to Reuters Ltd  |
+| n  | 4paradigm  | CC BY-NC 4.0  |
+| o  | 4paradigm  | CC BY-NC 4.0  |
+
+
 
 # References:
 - https://github.com/aister2020/KDDCUP_2020_AutoGraph_1st_Place
