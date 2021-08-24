@@ -1,20 +1,32 @@
 # AutoGraph-Codabench
-This is the official repo for hosting AutoGraph benchmarks on [Codabench platform](https://www.codabench.org/). This benchmark inherits from AutoGraph challenge at KDD Cup 2020.
+
+## Introduction
+This is the official repo for hosting AutoGraph benchmarks on [Codabench platform](https://www.codabench.org/). This benchmark inherits from AutoGraph challenge at KDD Cup 2020, targeting automated node classification task. To that end, we provide in this benchmark 13 datasets from public and private sources to fully evaluate the generalization ability of AutoML algorithms.
 
 Update (2021/08/23):
 
 - sample data under starting kit added
-- release all available datasets from AutoGraph benchmark (data_autograph.zip)
+- release all available datasets with licenses from AutoGraph benchmark (data_autograph.zip)
 
 Update (2021/08/10):
 
 - starting kit code added
 - winning solutions added
 
-To be included:
-LINK to codabench site, etc.
+## Public Benchmark Instance
 
-# Dataset License:
+LINK to be added
+
+To submit on public benchmark, please zip directly your all model file (configuration files, python files, external packages, etc.) without parent folder and submit by button on the website.
+
+## Running locally
+
+We provide full details for evaluating locally. Please download the datasets and put under the folder `src/data`. Then pull the prepared docker `nehzux/kddcup2020:v2` and run command
+`docker run --gpus=0 -it --rm -v "$(pwd):/app/autograph" -w /app/autograph nehzux/kddcup2020:v2`
+
+Go to the directory of `run_local_test.py` and run `python run_local_test.py --dataset_dir=data/a --code_dir=code_submission/0_baseline` for testing baseline on dataset a.
+
+## Dataset license:
 
 We include 13 datasets in total here in this repository. 10 datasets come from public datasets and 3 come from 4paradigm. We conclude the licenses for each dataset below. If you find anything inappropriate and have any question regrading the license, please contact us by: xuzhen[AT]4paradigm[DOT]com
 
