@@ -1,23 +1,17 @@
-# AutoGraph-Codabench
+# AutoGraph
 
 ## Introduction
-This is the official repo for hosting AutoGraph benchmarks on [Codabench platform](https://www.codabench.org/). This benchmark inherits from AutoGraph challenge at KDD Cup 2020, targeting automated node classification task. To that end, we provide in this benchmark 13 datasets from public and private sources to fully evaluate the generalization ability of AutoML algorithms.
+This is the official repo for hosting AutoGraph challenge datasets/code from KDD Cup 2020, targeting automated node classification task. To that end, we provide in this repo 13 datasets from public and private sources to fully evaluate the generalization ability of AutoML algorithms.
 
 Update (2021/08/23):
 
 - sample data under starting kit added
-- release all available datasets with licenses from AutoGraph benchmark (data_autograph.zip)
+- release all available datasets with licenses from AutoGraph chellenge (data_autograph.zip)
 
 Update (2021/08/10):
 
 - starting kit code added
 - winning solutions added
-
-## Public Benchmark Instance
-
-LINK to be added
-
-To submit on public benchmark, please zip directly your all model file (configuration files, python files, external packages, etc.) without parent folder and submit by button on the website.
 
 ## Running locally
 
