@@ -1,5 +1,7 @@
 # AutoGraph
 
+This repo is no longer maintained. Please refer to [https://github.com/AutoML-Research/AutoGraph-KDDCup2020](https://github.com/AutoML-Research/AutoGraph-KDDCup2020)
+
 ## Introduction
 This is the official repo for hosting AutoGraph challenge datasets/code from KDD Cup 2020, targeting automated node classification task. To that end, we provide in this repo 13 datasets from public and private sources to fully evaluate the generalization ability of AutoML algorithms.
 
